@@ -1,0 +1,47 @@
+{
+  "name": "scrollmap-pdf-viewer",
+  "description": "PDF outline markers for scrollmap",
+  "repository": "https://github.com/asiloisad/pulsar-scrollmap-pdf-viewer",
+  "keywords": [
+    "scrollmap",
+    "pdf",
+    "outline",
+    "marker"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "main": "./lib/main",
+  "consumedServices": {
+    "pdf-viewer": {
+      "versions": {
+        "1.0.0": "consumePdfViewer"
+      }
+    },
+    "simplemap": {
+      "versions": {
+        "1.0.0": "consumeSimpleMap"
+      }
+    }
+  },
+  "configSchema": {
+    "maxDepth": {
+      "order": 1,
+      "type": "integer",
+      "title": "Max Depth",
+      "description": "Maximum outline depth to show. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
+    },
+    "threshold": {
+      "order": 2,
+      "type": "integer",
+      "title": "Threshold",
+      "description": "Hide markers if count exceeds this value. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
+    }
+  }
+}
