@@ -27,19 +27,19 @@
     }
   },
   "configSchema": {
-    "maxDepth": {
-      "order": 1,
-      "type": "integer",
-      "title": "Max Depth",
-      "description": "Maximum outline depth to show. Zero means no limit.",
-      "minimum": 0,
-      "default": 0
-    },
     "threshold": {
-      "order": 2,
+      "order": 1,
       "type": "integer",
       "title": "Threshold",
       "description": "Hide markers if count exceeds this value. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
+    },
+    "maxDepth": {
+      "order": 2,
+      "type": "integer",
+      "title": "Max Depth",
+      "description": "Maximum outline depth to show. Zero means no limit.",
       "minimum": 0,
       "default": 0
     }
