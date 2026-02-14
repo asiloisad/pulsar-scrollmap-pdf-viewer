@@ -1,6 +1,6 @@
 {
   "name": "scrollmap-pdf-viewer",
-  "description": "PDF outline markers for scrollmap",
+  "description": "Show PDF outline on the scrollbar",
   "repository": "https://github.com/asiloisad/pulsar-scrollmap-pdf-viewer",
   "keywords": [
     "scrollmap",
