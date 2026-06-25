@@ -2,6 +2,8 @@
 
 Show PDF outline on the scrollbar.
 
+Deprecated: recent pdf-viewer versions include this integration directly. This package remains only as a compatibility bridge for older pdf-viewer versions and should not be used for new setups.
+
 ## Installation
 
 To install `scrollmap-pdf-viewer` search for [scrollmap-pdf-viewer](https://web.pulsar-edit.dev/packages/scrollmap-pdf-viewer) in the Install pane of the Pulsar settings or run `ppm install scrollmap-pdf-viewer`. Alternatively, you can run `ppm install asiloisad/pulsar-scrollmap-pdf-viewer` to install a package directly from the GitHub repository.
